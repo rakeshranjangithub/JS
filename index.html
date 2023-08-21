@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImageSlider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="slide">
+        <img src="./image/image1.jpg" height="500px" />
+        <div class="caption">caption 1</div>
+      </div>
+      <div class="slide">
+        <img src="./image/image2.jpg" height="500px" />
+        <div class="caption">caption 2</div>
+      </div>
+      <div class="slide">
+        <img src="./image/image3.jpg" height="500px" />
+        <div class="caption">caption 3</div>
+      </div>
+      <div class="slide">
+        <img src="./image/image4.jpg" height="500px" />
+        <div class="caption">caption 4</div>
+      </div>
+      
+      <span class="arrow prev" onclick="controller(-1)">&#10094</span>
+      <span class="arrow next" onclick="controller(1)">&#10095</span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
